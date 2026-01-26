@@ -1,0 +1,77 @@
+    1  python
+    2  python -V
+    3  clear
+    4  PS1="> "
+    5  ls
+    6  echo 'PS1="> "' > ~/.bashrc 
+    7  docker
+    8  docker -- version
+    9  docker run  hello-world
+   10  ls
+   11  docker run -it ubuntu
+   12  ls
+   13  docker run -it python:3:13.11-slim
+   14  docker run -it python:3:13.11
+   15  docker run -it python
+   16  ls
+   17  docker run -it python:3.13.11-slim
+   18  exit
+   19  ls
+   20   ls
+   21  docker run hello-world
+   22  ls
+   23  docker run -it --entrypoint=bash:3.13.11 -slim
+   24  docker run -it --entrypoint=bash:3.13.11-slim
+   25  docker run -it --entrypoint=bash python:3.13.11-slim
+   26  exit
+   27  /home/codespace/.python/current/bin/python
+   28  ls
+   29  cd pipeline/
+   30  python pipeline.py 
+   31  uv run python pipeline.py 234
+   32  git status
+   33  git add .
+   34  cd .
+   35  cd..
+   36  ls
+   37  got status
+   38  git status
+   39  cd  ..
+   40  ls
+   41  cd pipeline/
+   42  ls
+   43  cd ..
+   44  ls
+   45  git status
+   46  git commit -m 'pipeline'
+   47  history -a
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd DEZ26/
+   52  ls
+   53  # Keep project-specific logs
+   54* 
+   55* 
+   56  ls
+   57  pwd
+   58  cd ./pipeline/
+   59  ls
+   60  history
+   61  history > project_260122.txt
+   62  docker build -t test:pandas .
+   63  ls
+   64  ls
+   65  cd ..
+   66  ls
+   67  docker build -t test:pandas .
+   68  cd pipeline/
+   69  ls
+   70  docker build -t test:pandas .
+   71  docker run -it test:pandas 1
+   72  docker build -t test:pandas .
+   73  docker run -it test:pandas 3
+   74  docker build -t test:pandas .
+   75  docker run -it test:pandas 4
+   76  ls
+   77  history > project_260122.txt
